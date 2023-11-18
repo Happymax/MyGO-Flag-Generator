@@ -38,7 +38,7 @@ static const char* HELP_MSG =
         "\t-l, --lang\t<Language>\tPrint in the selected language.\n"
         "\t\t\t\t\tAvailable languages:\n"
         "\t\t\t\t\t(J)apanese / (C)hinese\n"
-        "\t\t\t\t\tOnly checks the first letter of the language argument.\n"
+        "\t\t\t\t\tOnly checks the first letter of the language name.\n"
         "\n"
         "\t-h, --help\t\t\tPrint this manual.\n"
         "\n";
