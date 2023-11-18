@@ -4,10 +4,10 @@
 #include <getopt.h>
 #include <string.h>
 
-#ifndef TEST2_FLAG_H
-#define TEST2_FLAG_H
+#ifndef FLAG_H
+#define FLAG_H
 
-#endif //TEST2_FLAG_H
+#endif //FLAG_H
 
 #define FLAGS_COUNT 160
 #define VERSION "v1.0.20231117"
@@ -45,6 +45,10 @@ static const char* HELP_MSG =
 
 static const char* INVALID_MSG =
         "%s: invalid argument: %s %s\n";
+
+// Lines are selected from Anime BangDream It's MyGO!!!!!
+// Chinese translations found on 萌娘百科/BanG Dream! It's MyGO!!!!!/轶事/精选台词集
+// https://zh.moegirl.org.cn/zh-hans/BanG_Dream!_It%27s_MyGO!!!!!/轶事
 
 static const char* FLAGS_JP[FLAGS_COUNT] = {
         "CRYCHICを やめさせていただきます",
