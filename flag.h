@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <getopt.h>
+#include <string.h>
 
 #ifndef TEST2_FLAG_H
 #define TEST2_FLAG_H
