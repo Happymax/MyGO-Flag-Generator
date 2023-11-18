@@ -86,7 +86,7 @@ void options(int argc, char* argv[]) {
                         break;
                     }
                 }
-                print_invalid(opt, argv[optind]);
+                print_invalid(opt, optarg);
                 break;
             case 'h':
                 // -h, --help
