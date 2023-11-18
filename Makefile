@@ -15,6 +15,9 @@ all:	flag
 run:	flag
 	./flag
 
+install:	flag
+	sudo cp ./flag /usr/local/bin/flag
+
 flag:	flag.c
 	$(CC) $(CFLAGS) -o $@ $^
 
