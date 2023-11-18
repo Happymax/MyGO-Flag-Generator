@@ -37,7 +37,7 @@ flag{e78788e381a1e38283e38293e38282e7ab8b}
 ~~~
 
 ## 兼容性 Compatibility
-macOS & Linux
+macOS & Linux<br>
 Tested on macOS 14 (arm and x86) and Arch Linux (Linux 6.5.8)
 
 <!--flag{e381ade381a320e381a8e38282e3828ae38293}-->
