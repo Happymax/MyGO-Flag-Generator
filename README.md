@@ -9,6 +9,6 @@ flag{何でよ 何で「春日影」やったの！}
 </details>
 
 ## Compatibility
-Tested on macOS 14
+Tested on macOS 14 (arm and x86) and Arch Linux (Linux 6.5.8)
 
 <!--flag{e381ade381a320e381a8e38282e3828ae38293}-->
