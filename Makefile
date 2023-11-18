@@ -1,4 +1,4 @@
-CFLAGS=-O0
+CFLAGS=-O3
 
 # Detect if is on ARM Mac, and set to use Rosetta 2
 OSFLAG :=
@@ -9,6 +9,8 @@ OSFLAG :=
 			OSFLAG += arch -arch x86_64
 		endif
 	endif
+
+.PHONY: run clean install uninstall
 
 all:	flag
 
@@ -24,6 +26,8 @@ uninstall:
 flag:	flag.c
 	$(CC) $(CFLAGS) -o $@ $^
 
+# Creates x86 binary on arm Mac
+# For Linux this is the same as flag, but binary is called flagintel
 flagintel:	flag.c
 	$(OSFLAG) $(CC) $(CFLAGS) -o $@ $^
 
