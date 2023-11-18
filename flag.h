@@ -18,7 +18,7 @@ void options(int, char**);
 void flag(const char*);
 void byte_flag(const char*);
 
-struct option OPTS[] = {
+static const struct option OPTS[] = {
         {"byte", optional_argument, 0, 'b'},
         {"lang", required_argument, 0, 'l'},
         {"help", no_argument, 0, 'h'},
