@@ -18,6 +18,9 @@ run:	flag
 install:	flag
 	sudo cp ./flag /usr/local/bin/flag
 
+uninstall:
+	sudo rm /usr/local/bin/flag
+
 flag:	flag.c
 	$(CC) $(CFLAGS) -o $@ $^
 
