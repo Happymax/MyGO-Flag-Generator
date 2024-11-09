@@ -7,8 +7,6 @@
 #ifndef FLAG_H
 #define FLAG_H
 
-#endif //FLAG_H
-
 #define FLAGS_COUNT 160
 #define VERSION "v1.0.20231117"
 
@@ -375,3 +373,5 @@ static const char* FLAGS_CN[FLAGS_COUNT] = {
         "要是心灵也可以贴创可贴就好了",
         "我回来了，混蛋老爸"
 };
+
+#endif //FLAG_H
